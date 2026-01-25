@@ -1,15 +1,16 @@
-# virtual environment
-.venv/
+# all virtual environments
+**/.venv/
 
 # python cache
-__pycache__/
-*.pyc
+**/__pycache__/
+**/*.pyc
 
-# notebooks junk
-.ipynb_checkpoints/
+# notebook junk
+**/.ipynb_checkpoints/
 
 # generated videos
-videos/
+**/videos/
 
 # OS junk
 .DS_Store
+
