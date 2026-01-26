@@ -1,25 +1,30 @@
-import numpy as np
+#using main.py instead of jupyter-lab Ipython HTML
+# **Note : Please download ffmpeg for this, using : sudo apt install ffmpeg {encoder for .mp4 files}**
+
 import matplotlib.pyplot as plt
-import time
+from matplotlib import animation
 
-fig, ax = plt.subplots()
+fig = plt.figure()
+ax = fig.add_subplot(projection="3d")
 
-# initial point
-x = np.array([0])
-y = np.array([0])
+ax.set_xlim(-5, 5)
+ax.set_ylim(-5, 5)
+ax.set_zlim(-5, 5)
 
-point, = ax.plot(x, y, marker="o")
+point = ax.scatter([0], [0], [0])
 
-ax.set_xlim(-1, 1)
-ax.set_ylim(-1, 5)
-ax.set_title("Moving Point (manual)")
+def update(frame):
+    z = frame * 0.1
+    point._offsets3d = ([0], [0], [z])
+    return point,
 
-plt.show(block=False)
+ani = animation.FuncAnimation(
+    fig,
+    update,
+    frames=200,
+    interval=10
+)
 
-for i in range(5):
-    y[0] = i
-    point.set_data(x, y)
-    fig.canvas.draw()
-    fig.canvas.flush_events()
-    time.sleep(0.5)
+ani.save("/home/shubh/projects/3d-anim/videos/motion.mp4", fps=20)
 
+# *** Note : or if you dont want to install ffmpeg, you can also use inbuilt pillow library in jupyter, but instead of ".mp4" use ".gif" to store the output media. ***

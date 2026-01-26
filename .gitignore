@@ -1,14 +1,6 @@
 **/.venv/
-
-# python cache
 **/__pycache__/
 **/*.pyc
-
-# notebook junk
 **/.ipynb_checkpoints/
-
-**/videos/
-
-# OS junk
 .DS_Store
 
