@@ -43,11 +43,18 @@ A classical geometric construction visualized dynamically.
 
 ## 3D Animations
 
-### Changing Camera Angle
-
-Demonstrates the difference between **camera motion** and **object motion**.
+### Moving Object in z-axis
 
 ![Camera Rotation](3d-anim/assets/gifs/changing_camera_angle.gif)
+
+---
+
+### Rotating Camera Angle
+
+Animation showing how the **camera viewpoint changes** while the object itself remains fixed.  
+This demonstrates the difference between **camera motion** and **object motion** in 3D visualization.
+
+![Rotating Camera](3d-anim/assets/gifs/rotating_camera_angle.gif)
 
 ---
 
