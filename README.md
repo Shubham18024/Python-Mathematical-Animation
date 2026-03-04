@@ -37,7 +37,7 @@ Instead of treating animation as a graphics trick, the project approaches animat
 
 A classical geometric construction visualized dynamically.
 
-![Cat Ladder Animation](2d-anim/assets/videos/cat_ladder_fast.mp4)
+![Cat Ladder Animation](2d-anim/assets/gifs/cat_ladder_fast.gif)
 
 ---
 
@@ -47,7 +47,7 @@ A classical geometric construction visualized dynamically.
 
 Demonstrates the difference between **camera motion** and **object motion**.
 
-![Camera Rotation](3d-anim/assets/videos/changing_camera_angle.mp4)
+![Camera Rotation](3d-anim/assets/gifs/changing_camera_angle.gif)
 
 ---
 
@@ -55,7 +55,7 @@ Demonstrates the difference between **camera motion** and **object motion**.
 
 A triangle rotating using a **rotation matrix**.
 
-![Triangle Rotation](3d-anim/assets/videos/triangle_rotation.mp4)
+![Triangle Rotation](3d-anim/assets/gifs/triangle_rotation.gif)
 
 ---
 
@@ -63,7 +63,7 @@ A triangle rotating using a **rotation matrix**.
 
 A square rotating around the **x-axis**.
 
-![Square Rotation](3d-anim/assets/videos/square_rotation.mp4)
+![Square Rotation](3d-anim/assets/gifs/square_rotation.gif)
 
 ---
 
@@ -71,7 +71,7 @@ A square rotating around the **x-axis**.
 
 A cube rotating using **combined 3D transformations**.
 
-![Cube Rotation](3d-anim/assets/videos/cube_rotation.mp4)
+![Cube Rotation](3d-anim/assets/gifs/cube_rotation.gif)
 
 ---
 
@@ -110,12 +110,16 @@ Applying this matrix rotates every point of an object simultaneously.
 ├── 2d-anim
 │   ├── notebooks
 │   ├── scripts
-│   └── assets/videos
+│   └── assets
+│       ├── gifs
+│       └── videos
 │
 ├── 3d-anim
 │   ├── notebooks
 │   ├── scripts
-│   └── assets/videos
+│   └── assets
+│       ├── gifs
+│       └── videos
 ```
 
 # Installation
