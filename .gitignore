@@ -1,5 +1,16 @@
-**/.venv/
+# Python
 **/__pycache__/
 **/*.pyc
+
+# Virtual environments
+**/.venv/
+
+# Jupyter
 **/.ipynb_checkpoints/
+
+# OS
 .DS_Store
+
+# Ignore videos (keep GIF previews)
+2d-anim/assets/videos/*
+3d-anim/assets/videos/*
