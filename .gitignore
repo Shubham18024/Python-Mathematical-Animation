@@ -2,9 +2,4 @@
 **/__pycache__/
 **/*.pyc
 **/.ipynb_checkpoints/
-assets/videos/*
-!assets/videos/cube_rotation.mp4
-!assets/videos/triangle_rotation.mp4
-!assets/videos/cat_ladder_fast.mp4
 .DS_Store
-
