@@ -11,6 +11,6 @@
 # OS
 .DS_Store
 
-# Ignore videos (keep GIF previews)
+# Ignore videos
 2d-anim/assets/videos/*
 3d-anim/assets/videos/*
