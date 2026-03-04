@@ -2,7 +2,7 @@
 name = "2d-anim"
 version = "0.1.0"
 description = "This project contain code and resource to initialize 2d animation journey in python using matplotlib"
-#readme = "README.md"
+readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "jupyterlab>=4.5.3",
