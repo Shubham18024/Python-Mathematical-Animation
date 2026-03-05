@@ -43,10 +43,12 @@ A classical geometric construction visualized dynamically.
 
 ## 3D Animations
 
-### Moving Object in z-axis
+### Rotating Sphere 
 
-![Camera Rotation](3d-anim/assets/gifs/changing_camera_angle.gif)
+Animation showing multiple **Sphere** in and their **rotation in different axes.**
 
+![Rotating Spheres](3d-anim/assets/gifs/sphere_multiple_axes_rotation.gif)
+ 
 ---
 
 ### Rotating Camera Angle
