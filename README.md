@@ -142,7 +142,12 @@ pip install uv
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/Python-Mathematical-Animation.git
+git clone https://github.com/Shubham18024/Python-Mathematical-Animation.git
+cd Python-Mathematical-Animation
+```
+or using SSH(if you have SSH keys configured)
+```bash
+git clone git@github.com:Shubham18024/Python-Mathematical-Animation.git
 cd Python-Mathematical-Animation
 ```
 
