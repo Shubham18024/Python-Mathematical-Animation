@@ -43,6 +43,12 @@ A classical geometric construction visualized dynamically.
 
 ## 3D Animations
 
+### Rotating Cube with faces and its explosion into individual faces
+
+Updation of **CUBE** from **wireframe to surface plot** which gets explodes to **individual faces** and **reassemble.**
+
+![Rotating Cube With Faces](3d-anim/assets/gifs/cube_with_faces_rotation.gif)
+
 ### Rotating Sphere 
 
 Animation showing multiple **Sphere** in and their **rotation in different axes.**
