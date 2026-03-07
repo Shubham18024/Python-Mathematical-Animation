@@ -43,11 +43,30 @@ A classical geometric construction visualized dynamically.
 
 ## 3D Animations
 
+### Human Body Movement
+
+**Multiple Shapes** combine to perform human movement.
+
+![Human Movement](3d-anim/assets/gifs/Human_Motion.gif)
+
+---
+
+### Translation + Rotation
+
+Multiple **cubes** are **translating** and **rotating.**
+
+![Cube Translate and Movement](3d-anim/assets/gifs/Multiple_Cubes_translation_rotation.gif)
+
+
+---
+
 ### Rotating Cube with faces and its explosion into individual faces
 
 Updation of **CUBE** from **wireframe to surface plot** which gets explodes to **individual faces** and **reassemble.**
 
 ![Rotating Cube With Faces](3d-anim/assets/gifs/cube_with_faces_rotation.gif)
+
+---
 
 ### Rotating Sphere 
 
