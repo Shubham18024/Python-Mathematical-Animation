@@ -43,6 +43,23 @@ A classical geometric construction visualized dynamically.
 
 ## 3D Animations
 
+### Catenoid → Helicoid Transformation
+
+**Minimal surfaces catenoid and helicoid are isometric and can smoothly deform into each other without stretching.**
+
+![C-H-TRANS](3d-anim/assets/gifs/catenoid_to_helicoid_transformation.gif)
+
+---
+
+### Boy’s Surface
+
+**Boy’s Surface is an immersion of the real projective plane $RP^2$ into $R^3$ discovered by Werner Boy in 1901.**
+
+![BOYS SURFACE](3d-anim/assets/gifs/boys_surface_rotation.gif)
+
+
+---
+
 ### Human Body Movement
 
 **Multiple Shapes** combine to perform human movement.
