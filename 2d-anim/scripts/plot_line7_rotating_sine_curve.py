@@ -97,13 +97,6 @@ axs.set_ylabel("y")
 axs.grid(True)
 
 
-
-
-# save the animation as mp4
-ani.save('rotating_sine_curve.mp4')
-
-
-
 # display the animation
 plt.show()
 

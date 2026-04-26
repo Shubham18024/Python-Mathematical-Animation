@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+
 def setup_axes():
     fig, ax = plt.subplots(figsize=(6,6))
     ax.set_xlim(-1.5, 1.5)
@@ -11,6 +12,7 @@ def setup_axes():
     ax.set_aspect("equal")
     ax.set_title("Unit Ball in Different Norms on ℝ²")
     return fig, ax
+
 
 def lp_unit_ball(p, num_points=400):
     theta = np.linspace(0, 2*np.pi, num_points)
@@ -35,6 +37,7 @@ def lp_unit_ball(p, num_points=400):
     y = np.sign(np.sin(theta)) * (np.abs(np.sin(theta)) ** (2/p))
     return x, y
 
+
 def update(frame):
     ax.clear()
 
@@ -45,10 +48,12 @@ def update(frame):
     x, y = lp_unit_ball(current_p)
 
     ax.plot(x, y, 'r', linewidth=2)
+
     ax.set_title(f"Unit Ball in ℓₚ for p = {current_p}")
     ax.set_xlim(-1.5, 1.5)
     ax.set_ylim(-1.5, 1.5)
     ax.set_aspect("equal")
+
     ax.axhline(0, color="black", linewidth=1)
     ax.axvline(0, color="black", linewidth=1)
 
@@ -56,19 +61,19 @@ def update(frame):
 
     return []
 
-p_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, np.inf]
+
+p_values = [1,2,3,4,5,6,7,8,9,10,np.inf]
 points_per_norm = 300
 total_frames = len(p_values) * points_per_norm
+
 
 fig, ax = setup_axes()
 
 ani = animation.FuncAnimation(
-    fig, update,
+    fig,
+    update,
     frames=total_frames,
-    interval=20,
-    blit=False
+    interval=20
 )
 
-plt.close(fig)
-
-ani.save("lp_unit_balls.mp4", fps=30, dpi=100)
+plt.show()

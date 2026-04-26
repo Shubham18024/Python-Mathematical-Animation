@@ -9,3 +9,8 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "scripts",
+]
